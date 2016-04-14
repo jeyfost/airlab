@@ -37,6 +37,17 @@
     </ul>
 </div>
 
+<div id="lb1" class="menuBracket">[</div>
+<div id="rb1" class="menuBracket">]</div>
+<div id="lb2" class="menuBracket">[</div>
+<div id="rb2" class="menuBracket">]</div>
+<div id="lb3" class="menuBracket">[</div>
+<div id="rb3" class="menuBracket">]</div>
+<div id="lb4" class="menuBracket">[</div>
+<div id="rb4" class="menuBracket">]</div>
+
+<div id="indexText">Разработка сайтов — наша религия, философия и обрах жизни.<br />Мы найдем индивидуальные решения Ваших задач, внедрение которых привeдет к увеличению прибыли Вашей компании.<br /><b>Мы заставим Интернет работать на Вас.</b></div>
+
 </body>
 
 </html>

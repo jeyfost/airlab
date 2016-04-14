@@ -24,3 +24,14 @@ a {text-decoration: none; border: none; color: #000; transition: .5s;}
 #logo {position: absolute; top: -20px; right: 100%; z-index: 999999; transition: 1s;}
 #menu {position: absolute; top: 40px;  left: 100%;  transition: 1s;}
 #bgIMG {position: absolute; right: 0; bottom: 0; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none; transition: 1.3s; opacity: 0;}
+#indexText {position: relative; margin: 200px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s;}
+#lb1 {top: 53px; left: 60px;}
+#rb1 {top: 53px; left: 140px;}
+#lb2 {top: 83px; left: 60px;}
+#rb2 {top: 83px; left: 140px;}
+#lb3 {top: 113px; left: 60px;}
+#rb3 {top: 113px; left: 167px;}
+#lb4 {top: 143px; left: 60px;}
+#rb4 {top: 143px; left: 110px;}
+
+.menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s;}
