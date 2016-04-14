@@ -30,10 +30,10 @@
 
 <div id="menu">
     <ul>
-        <li><a href="works.php">Работы</a></li>
-        <li><a href="woks.php">Студия</a></li>
-        <li><a href="contacts.php">Контакты</a></li>
-        <li><a href="blog.php">Блог</a></li>
+        <li><a href="works.php" id="aWorks">Работы</a></li>
+        <li><a href="woks.php" id="aStudio">Студия</a></li>
+        <li><a href="contacts.php" id="aContacts">Контакты</a></li>
+        <li><a href="blog.php" id="aBlog">Блог</a></li>
     </ul>
 </div>
 

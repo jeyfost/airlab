@@ -14,9 +14,12 @@ html {margin: 0; padding: 0; background-color: #fff;}
 body {margin: 0; padding: 0; font-family: 'Roboto', "Myriad Set Pro", Tahoma, sans-serif, 'Open Sans', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", Proxima; font-style: normal; font-size: 14px; font-weight: normal; color: #000;}
 h1 {font-family: 'Champagne'; color: #fff; font-size: 108px; transition: 1s; -webkit-animation: shadowto .5s linear; text-shadow: -5px 0 10px rgba(0, 0, 0, .3); cursor: default;}
 li {list-style-type: none; font-size: 24px; font-weight: 600;}
-a {text-decoration: none; border: none; color: #000;}
+a {text-decoration: none; border: none; color: #000; transition: .5s;}
 
-a:hover {color: #6a6a6a; transition: .5s;}
+#aWorks:hover {color: #d53636;}
+#aStudio:hover {color: #049eff;}
+#aContacts:hover {color: #ffc704;}
+#aBlog:hover {color: #419849;}
 
 #logo {position: absolute; top: -20px; right: 100%; z-index: 999999; transition: 1s;}
 #menu {position: absolute; top: 40px;  left: 100%;  transition: 1s;}
