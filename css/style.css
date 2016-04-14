@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Champagne';
+    src: url('../fonts/champagne-webfont.eot');
+    src: url('../fonts/champagne-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/champagne-webfont.woff2') format('woff2'),
+    url('../fonts/champagne-webfont.woff') format('woff'),
+    url('../fonts/champagne-webfont.ttf') format('truetype'),
+    url('../fonts/champagne-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {margin: 0; padding: 0; background-color: #fff;}
+body {margin: 0; padding: 0; font-family: 'Roboto', "Myriad Set Pro", Tahoma, sans-serif, 'Open Sans', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", Proxima; font-style: normal; font-size: 14px; font-weight: normal; color: #000;}
+h1 {font-family: 'Champagne'; color: #fff; font-size: 108px; transition: 1s; -webkit-animation: shadowto .5s linear; text-shadow: -5px 0 10px rgba(0, 0, 0, .3); cursor: default;}
+li {list-style-type: none; font-size: 24px; font-weight: 600;}
+a {text-decoration: none; border: none; color: #000;}
+
+a:hover {color: #6a6a6a; transition: .5s;}
+
+#logo {position: absolute; top: -20px; right: 100%; z-index: 999999; transition: 1s;}
+#menu {position: absolute; top: 40px;  left: 100%;  transition: 1s;}
+#bgIMG {position: absolute; right: 0; bottom: 0; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none; transition: 1.3s; opacity: 0;}
