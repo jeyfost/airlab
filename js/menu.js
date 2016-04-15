@@ -81,9 +81,3 @@ $(window).load(function() {
         $('#rb4').css('left', '110px');
     });
 });
-
-$(document).ready( function() {
-    $('li').each(function() {
-        $(this).attr('data-buzz', $(this).text());
-    });
-});

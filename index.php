@@ -8,8 +8,6 @@
     <meta name="description" content="Студия дизайна AIRLAB. Создание и сопровождение сайтов. Разработка фирменного стиля, брендирование, рекламные компании.">
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 
     <title>Студия дизайна AIRLAB</title>
 
@@ -46,7 +44,7 @@
 <div id="lb4" class="menuBracket">[</div>
 <div id="rb4" class="menuBracket">]</div>
 
-<div id="indexText">Разработка сайтов — наша религия, философия и обрах жизни.<br />Мы найдем индивидуальные решения Ваших задач, внедрение которых привeдет к увеличению прибыли Вашей компании.<br /><b>Мы заставим Интернет работать на Вас.</b></div>
+<div id="indexText">Разработка сайтов — наша религия, философия и образ жизни.<br />Мы найдём индивидуальные решения Ваших задач, внедрение которых привeдёт к увеличению прибыли Вашей компании.<br /><br /><b style="color: #d53636;">Мы заставим Интернет работать на Вас.</b></div>
 
 </body>
 
