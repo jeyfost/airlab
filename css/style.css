@@ -16,15 +16,16 @@ h1 {font-family: 'Champagne'; color: #fff; font-size: 108px; transition: 1s; -we
 li {list-style-type: none; font-size: 24px; font-weight: 600;}
 a {text-decoration: none; border: none; color: #000; transition: .5s;}
 
+#aMain:hover {color: #d53636;}
 #aWorks:hover {color: #d53636;}
 #aStudio:hover {color: #049eff;}
 #aContacts:hover {color: #ffc704;}
 #aBlog:hover {color: #419849;}
 
-#logo {position: absolute; top: -20px; right: 100%; z-index: 999999; transition: 1s;}
-#menu {position: absolute; top: 40px;  left: 100%;  transition: 1s;}
+#logo {position: absolute; top: -40px; right: 100%; z-index: 999999; transition: 1s;}
+#menu {position: absolute; top: 40px;  left: 100%;  transition: 1s; z-index: 999;}
 #bgIMG {position: absolute; right: 0; bottom: 0; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none; transition: 1.3s; opacity: 0;}
-#indexText {position: relative; margin: 200px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s;}
+#indexText {position: relative; margin: 200px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s; z-index: 998;}
 #lb1 {top: 53px; left: 60px;}
 #rb1 {top: 53px; left: 140px;}
 #lb2 {top: 83px; left: 60px;}
@@ -33,5 +34,10 @@ a {text-decoration: none; border: none; color: #000; transition: .5s;}
 #rb3 {top: 113px; left: 167px;}
 #lb4 {top: 143px; left: 60px;}
 #rb4 {top: 143px; left: 110px;}
+#lb5 {top: 53px; left: 60px;}
+#rb5 {top: 53px; left: 145px;}
+#sectionName {font-size: 144px; text-transform: uppercase; position: absolute; top: 100%; left: 185px; transition: 1s; z-index: 998;}
+#works {position: relative; width: 100%; margin: 290px auto; z-index: 997; opacity: 0; transition: 1s;}
 
 .menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s;}
+.work {position: relative; float: left; width: 25%; min-width: 300px; margin: 0; padding: 0;}
