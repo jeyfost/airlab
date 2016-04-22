@@ -40,4 +40,4 @@ a {text-decoration: none; border: none; color: #000; transition: .5s;}
 #works {position: relative; width: 100%; margin: 290px auto; z-index: 997; opacity: 0; transition: 1s;}
 
 .menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s;}
-.work {position: relative; float: left; width: 25%; min-width: 300px; margin: 0; padding: 0;}
+.work {position: relative; float: left; width: 25%; margin: 0; padding: 0;}

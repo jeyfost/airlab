@@ -57,7 +57,7 @@ include ('scripts/connect.php');
     $worksResult = $mysqli->query("SELECT * FROM works ORDER BY id DESC");
     while($works = $worksResult->fetch_assoc()) {
         echo "
-            <div class='work'><img src='img/works/previews/".$works['preview']."' style='width: 100%;' /></div>
+            <div class='work' id='workBlock".$works['id']."'><img src='img/works/previews/".$works['preview']."' id='workIMG".$works['id']."' style='width: 100%;' onload='resizeWork(\"workBlock".$works['id']."\", \"workIMG".$works['id']."\")' /></div>
         ";
     }
 
