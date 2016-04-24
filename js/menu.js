@@ -67,6 +67,28 @@ $(window).load(function() {
         });
     }
 
+    if($('#aContactsC')) {
+        $('#aContactsC').mouseover(function() {
+            $('#lb6').css('opacity', '1');
+            $('#lb6').css('color', '#049eff');
+            $('#lb6').css('left', '40px');
+
+            $('#rb6').css('opacity', '1');
+            $('#rb6').css('color', '#049eff');
+            $('#rb6').css('left', '160px');
+        });
+
+        $('#aContactsC').mouseout(function() {
+            $('#lb6').css('opacity', '0');
+            $('#lb6').css('color', '#000');
+            $('#lb6').css('left', '60px');
+
+            $('#rb6').css('opacity', '0');
+            $('#rb6').css('color', '#000');
+            $('#rb6').css('left', '140px');
+        });
+    }
+
     if($('#aBlog')) {
         $('#aBlog').mouseover(function() {
             $('#lb4').css('opacity', '1');
