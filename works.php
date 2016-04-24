@@ -17,7 +17,7 @@ include ('scripts/connect.php');
 
     <title>Работы | Студия дизайна AIRLAB</title>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
@@ -62,7 +62,7 @@ include ('scripts/connect.php');
         echo "
             <a href='work.php?id=".$works['id']."'>
                 <div class='work' id='workBlock".$works['id']."'>
-                    <img src='img/works/previews/".$works['preview']."' id='workIMG".$works['id']."' style='width: 100%;' onload='resizeWork(\"workBlock".$works['id']."\", \"workIMG".$works['id']."\")' onresize='resizeWork(\"workBlock".$works['id']."\", \"workIMG".$works['id']."\")' />
+                    <img src='img/works/previews/".$works['preview']."' id='workIMG".$works['id']."' style='width: 100%; height: 100%;' />
                     <div class='workOverlay' id='workOverlay".$works['id']."' onmouseover='overlay(\"1\", \"workOverlay".$works['id']."\", \"workOverlayText".$works['id']."\", \"workName".$works['id']."\", \"workType".$works['id']."\")' onmouseout='overlay(\"0\", \"workOverlay".$works['id']."\", \"workOverlayText".$works['id']."\", \"workName".$works['id']."\", \"workType".$works['id']."\")'>
                         <div class='workOverlayName' id='workOverlayText".$works['id']."'><span id='workName".$works['id']."' style='opacity: 0;'>".$works['name']."</span><br /><span id='workType".$works['id']."' style='font-size: 24px; font-weight: normal; opacity: 0;'>".$type[0]."</span></div>
                     </div>
