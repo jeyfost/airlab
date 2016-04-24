@@ -17,3 +17,9 @@ $(window).load(function() {
         $('#sectionName').css('top', '28px');
     }
 });
+
+$(window).resize(function () {
+    if($('#sectionName')) {
+        $('#sectionName').css('top', $('#menu').offset().top);
+    }
+});
