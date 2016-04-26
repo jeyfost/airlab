@@ -13,13 +13,12 @@ include ('scripts/connect.php');
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <title>Работы | Студия дизайна AIRLAB</title>
+    <title>О студии | Студия дизайна AIRLAB</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
-    <script type="text/javascript" src="js/works.js"></script>
 
 </head>
 

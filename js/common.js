@@ -22,6 +22,12 @@ $(window).load(function() {
     if($('#sectionName')) {
         $('#sectionName').css('top', '28px');
     }
+
+    if($('#blogContent')) {
+        setTimeout(function(){
+            $('#blogContent').css('opacity', '1');
+        }, 300);
+    }
 });
 
 $(window).resize(function () {
