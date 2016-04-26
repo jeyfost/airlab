@@ -1,3 +1,7 @@
+<?php
+include ('scripts/connect.php');
+?>
+
 <!doctype html>
 
 <html>
@@ -9,18 +13,17 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <title>Контактная информация | Студия дизайна AIRLAB</title>
+    <title>Работы | Студия дизайна AIRLAB</title>
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/works.js"></script>
 
 </head>
 
 <body>
-
-<img src="img/system/bg.jpg" id="bgIMG" style="transition: 2s;" />
 
 <div id="logo">
     <h1 id="logoType" onmouseover="logoShadow()" class="custom">airlab</h1>
@@ -30,23 +33,25 @@
     <ul>
         <li><a href="index.php" id="aMain">Главная</a></li>
         <li><a href="works.php" id="aStudio">Работы</a></li>
-        <li><a href="about.php" id="aContactsC">Студия</a></li>
+        <li><a href="contacts.php" id="aContacts">Контакты</a></li>
         <li><a href="blog.php" id="aBlog">Блог</a></li>
     </ul>
 </div>
 
-<div id="sectionName">Контакты</div>
+<div id="sectionName">Студия</div>
 
 <div id="lb5" class="menuBracket">[</div>
 <div id="rb5" class="menuBracket">]</div>
 <div id="lb2" class="menuBracket">[</div>
 <div id="rb2" class="menuBracket">]</div>
-<div id="lb6" class="menuBracket">[</div>
-<div id="rb6" class="menuBracket">]</div>
+<div id="lb3" class="menuBracket">[</div>
+<div id="rb3" class="menuBracket">]</div>
 <div id="lb4" class="menuBracket">[</div>
 <div id="rb4" class="menuBracket">]</div>
 
-<div id="contactsText"><b>Минск</b><br />ул. Лермонтова, 21<br /><br /><b>Могилёв</b><br />ул. Залуцкого, 21<br /><br />+375-29-747-87-67<br />+375-44-748-98-67<br /><br />welcome@airlab.by</div>
+<div id="aboutText">Мы — Airlab.<br /><br />Наша специализация — разработка сайтов любой сложности и решение задач в сфере брендинга и дизайна. Наши клиенты — представители малого и среднего бизнеса.<br /><br />Наши работы — это результат решения задач, доверенных нам.</div>
+
+<img src="img/system/bg.jpg" id="bgIMG" style="transition: 2s;" />
 
 </body>
 

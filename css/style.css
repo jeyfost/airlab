@@ -27,7 +27,7 @@ span {transition: 1s;}
 #menu {position: absolute; top: 40px;  left: 100%;  transition: 1s; z-index: 999;}
 #bgIMG {position: absolute; right: 0; bottom: 0; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none; transition: 1.3s; opacity: 0;}
 #indexText {position: relative; margin: 200px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s; z-index: 998;}
-#contactsText {position: relative; margin: 250px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s; z-index: 998;}
+#contactsText, #aboutText {position: relative; margin: 250px auto; text-align: center; width: 550px; line-height: 25px; opacity: 0; transition: 1.3s; z-index: 998;}
 #lb1 {top: 53px; left: 60px;}
 #rb1 {top: 53px; left: 140px;}
 #lb2 {top: 83px; left: 60px;}
@@ -42,7 +42,6 @@ span {transition: 1s;}
 #rb6 {top: 113px; left: 140px;}
 #sectionName {font-size: 9vw; text-transform: uppercase; position: absolute; top: 100%; left: 185px; transition: 1s; z-index: 998;}
 #works {position: relative; width: 100%; margin: 290px auto; z-index: 996; opacity: 0; transition: 1s;}
-#bodyContacts {overflow: hidden;}
 
 .menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s;}
 .work {position: relative; float: left; width: 25%; margin: 0; padding: 0; background: url(../img/system/workBG.jpg) repeat top left;}

@@ -1,7 +1,5 @@
 <?php
-
 include ('scripts/connect.php');
-
 ?>
 
 <!doctype html>

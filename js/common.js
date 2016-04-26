@@ -13,6 +13,12 @@ $(window).load(function() {
         }, 300);
     }
 
+    if($('#aboutText')) {
+        setTimeout(function(){
+            $('#aboutText').css('opacity', '1');
+        }, 300);
+    }
+
     if($('#sectionName')) {
         $('#sectionName').css('top', '28px');
     }
