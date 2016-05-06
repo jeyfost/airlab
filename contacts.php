@@ -20,8 +20,6 @@
 
 <body>
 
-<img src="img/system/bg.jpg" id="bgIMG" style="transition: 2s;" />
-
 <div id="logo">
     <h1 id="logoType" onmouseover="logoShadow()" class="custom">airlab</h1>
 </div>

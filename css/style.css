@@ -13,7 +13,7 @@
 html {margin: 0; padding: 0; background-color: #fff;}
 body {margin: 0; padding: 0; font-family: 'Roboto', "Myriad Set Pro", Tahoma, sans-serif, 'Open Sans', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", Proxima; font-style: normal; font-size: 14px; font-weight: normal; color: #000;}
 h1 {font-family: 'Champagne'; color: #fff; font-size: 108px; transition: 1s; -webkit-animation: shadowto .5s linear; text-shadow: -5px 0 10px rgba(0, 0, 0, .3); cursor: default;}
-li {list-style-type: none; font-size: 24px; font-weight: 600;}
+li, .headerFont {list-style-type: none; font-size: 24px; font-weight: 600;}
 a {text-decoration: none; border: none; color: #000; transition: .5s;}
 span {transition: 1s;}
 
@@ -49,8 +49,13 @@ span {transition: 1s;}
 #upArrow {margin-top: 20px; cursor: pointer;}
 #backLink {float: right; margin-top: 10px;}
 #backLinkText {font-style: italic; border-bottom: 1px dashed #000;}
+#workAbsolute {position: absolute; top: 0; left: 0; width: 100%; opacity: 0; transition: 1s;}
+#workBigContainer {position: relative; float: left; width: 100%; z-index: 1;}
+#workBigPhoto {max-width: 100%; height: auto; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
+#workContent {position: relative; margin: 0 auto; width: 90%;}
+#workContent img {box-shadow: 0 0 20px rgba(0, 0, 0, .5); max-width: 70%; margin-top: 70px; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
 
-.menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s;}
+.menuBracket {position: absolute; font-size: 24px; font-weight: 600; opacity: 0; transition: .5s; z-index: 997;}
 .work {position: relative; float: left; width: 25%; margin: 0; padding: 0; background: url(../img/system/workBG.jpg) repeat top left;}
 .workOverlay {z-index: 997; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #fff; opacity: 0; transition: 1s;}
 .workOverlayName {position: absolute; bottom: 100%; font-size: 40px; font-weight: bold; line-height: 24px; transition: 1s;}

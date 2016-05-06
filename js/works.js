@@ -1,5 +1,14 @@
 $(window).load(function() {
     $('#works').css('opacity', '1');
+
+    if(document.getElementById('workAbsolute')) {
+        $('#workAbsolute').css('opacity', '1');
+    }
+
+    if(document.getElementById('workBigContainer')) {
+        document.getElementById('workBigContainer').style.height = $(window).height() + 'px';
+        document.getElementById('workBigPhoto').style.width = $(window).width() + 'px';
+    }
 });
 
 function overlay(action, block, text, name, type) {
