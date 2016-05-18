@@ -49,7 +49,7 @@ if(!empty($_REQUEST['id'])) {
     </ul>
 </div>
 
-<div id="sectionName">Блог</div>
+<a href="blog.php"><div id="sectionName">Блог</div></a>
 
 <div id="lb5" class="menuBracket">[</div>
 <div id="rb5" class="menuBracket">]</div>

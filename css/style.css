@@ -46,7 +46,7 @@ span {transition: 1s;}
 #sectionName {font-size: 9vw; text-transform: uppercase; position: absolute; top: 100%; left: 185px; transition: 1s; z-index: 998;}
 #works {position: relative; width: 100%; margin: 290px auto; z-index: 996; opacity: 0; transition: 1s;}
 #blogContent {position: absolute; left: 60px; top: 250px; width: 800px; transition: 1s; opacity: 0;}
-#upArrow {margin-top: 20px; cursor: pointer;}
+#upArrow {margin-top: 20px; cursor: pointer; float: left;}
 #backLink {float: right; margin-top: 10px;}
 #backLinkText {font-style: italic; border-bottom: 1px dashed #000;}
 #workAbsolute {position: absolute; top: 0; left: 0; width: 100%; opacity: 0; transition: 1s;}

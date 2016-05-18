@@ -33,7 +33,7 @@
     </ul>
 </div>
 
-<div id="sectionName">Контакты</div>
+<a href="about.php"><div id="sectionName">Контакты</div></a>
 
 <div id="lb5" class="menuBracket">[</div>
 <div id="rb5" class="menuBracket">]</div>

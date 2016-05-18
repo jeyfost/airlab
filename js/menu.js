@@ -199,3 +199,20 @@ $(window).load(function() {
         });
     }
 });
+
+$(document).ready(function() {
+    $('#sectionName').mouseover(function() {
+        var symbols = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', 'a', 'b', 'c', 'd', 'e', 'f'];
+        var color = '#';
+
+        for (var i = 0; i < 6; i++) {
+            color += symbols[Math.floor(Math.random() * (symbols.length - 1))];
+        }
+
+        $('#sectionName').css('color', color);
+    });
+
+    $('#sectionName').mouseout(function() {
+        $('#sectionName').css('color', '#000');
+    });
+});

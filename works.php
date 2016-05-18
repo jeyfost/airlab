@@ -99,7 +99,7 @@ include ('scripts/connect.php');
             ";
 
             if(!empty($work['address'])) {
-                echo "<a href='".$work['address']."'><span class='headerFont'>".$work['address']."</span></a>";
+                echo "<a href='http://".$work['address']."'><span class='headerFont'>".$work['address']."</span></a>";
             }
 
             echo "
@@ -108,6 +108,9 @@ include ('scripts/connect.php');
                         ".$work['content']."
                     </div>
                     <div style='clear: both;'></div>
+                    <div style='width: 100%;'>
+                        <img src='img/system/up.png' id='upArrow' onclick='return up();' title='Вверх!' />
+                    </div>
                 </div>
             ";
         }
