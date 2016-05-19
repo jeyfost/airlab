@@ -10,4 +10,3 @@
 	
 	$mysqli->query("SET NAMES 'UTF-8'");
 	$mysqli->query("SET CHARACTER SET 'UTF-8'");
-?>
