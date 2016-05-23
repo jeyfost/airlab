@@ -18,7 +18,7 @@ $additions = trim(htmlspecialchars($_POST['additions']));
 $contacts = trim(htmlspecialchars($_POST['contacts']));
 $person = trim(htmlspecialchars($_POST['person']));
 
-if($mysqli->query("INSERT INTO brief (name, about, advantage, competitors, competitorsAdvantage, client, advertise, service, idea, help, terms, budget, additions, contacts, person) VALUES ('".$name."', '".$about."', '".$advantage."', '".$competitors."', '".$competitorsAdvantage."', '".$client."', '".$advertise."', '".$service."', '".$idea."', '".$help."', '".$terms."', '".$budget."', '".$additions."', '".$contacts."', '".$person."')")) {
+if($mysqli->query("INSERT INTO brief (name, about, advantage, competitors, competitorsAdvantage, client, advertise, service, idea, help, terms, budget, additions, contacts, person, date) VALUES ('".$name."', '".$about."', '".$advantage."', '".$competitors."', '".$competitorsAdvantage."', '".$client."', '".$advertise."', '".$service."', '".$idea."', '".$help."', '".$terms."', '".$budget."', '".$additions."', '".$contacts."', '".$person."', '".date('Y-m-d H:i:s')."')")) {
     echo "a";
 } else {
     echo "b";

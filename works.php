@@ -136,79 +136,79 @@ include ('scripts/connect.php');
                                 <br />
                                 <label class='labelDescription'>расскажите о ваших преимуществах над конкурентами или преимуществах вашего товара</label>
                                 <br />
-                                <textarea id='advantageInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='advantageInput' name='advantage' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='competitorsInput'>Ваши конкуренты</label>
                                 <br />
                                 <label class='labelDescription'>прямые конкуренты по рынку, косвенные и компании вашего сегмента (добавьте ссылки на их сайты, если они существуют)</label>
                                 <br />
-                                <textarea id='competitorsInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='competitorsInput' name='competitors' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='competitorsAdvantageInput'>Чем конкуренты вас превосходят?</label>
                                 <br />
                                 <label class='labelDescription'>расскажите о тех моментах в работе, которые, как вам кажется, уступают вашим конкурентам</label>
                                 <br />
-                                <textarea id='competitorsAdvantageInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='competitorsAdvantageInput' name='competitorsAdvantage' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='clientInput'>Кто ваш клиент?</label>
                                 <br />
                                 <label class='labelDescription'>опишите вашего идеального клиента (кто он, его пол, сколько ему лет, чем занимается, сколько зарабатывает и так далее)</label>
                                 <br />
-                                <textarea id='clientInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='clientInput' name='client' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='advertiseInput'>Рекламируете ли вы себя?</label>
                                 <br />
                                 <label class='labelDescription'>если да, то опишите, каким образом: реклама в интернете, медийная сфера, уличная реклама, печатная продукция или любые иные способы продвижения</label>
                                 <br />
-                                <textarea id='advertiseInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='advertiseInput' name='advertise' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='serviceInput'>Что мы можем сделать для вас? *</label>
                                 <br />
                                 <label class='labelDescription'>например, &laquo;создать сайт&raquo;, &laquo;разработать дизайн-макет сайта&raquo;, &laquo;разработать концепцию бренда&raquo; и так далее. вариантов может быть несколько</label>
                                 <br />
-                                <textarea id='serviceInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='serviceInput' name='service' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='ideaInput'>Какую идею вы хотите донести до клиента?</label>
                                 <br />
                                 <label class='labelDescription'>например, рассказать о конкретном преимуществе вашего товара и (или) услуге</label>
                                 <br />
-                                <textarea id='ideaInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='ideaInput' name='idea' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='helpInput'>Как это поможет вашей компании?</label>
                                 <br />
                                 <label class='labelDescription'>что предположительно должно измениться после запуска нашего проекта?</label>
                                 <br />
-                                <textarea id='helpInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='helpInput' name='help' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='termsInput'>Какими сроками вы располагаете?</label>
                                 <br />
                                 <label class='labelDescription'>помните, что сроки влияют на стоимость работы</label>
                                 <br />
-                                <textarea id='termsInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='termsInput' name='terms' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='budgetInput'>Каким бюджетом вы располагаете?</label>
                                 <br />
                                 <label class='labelDescription'>напишите объективную для вас стоимость планируемых работ</label>
                                 <br />
-                                <textarea id='budgetInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='budgetInput' name='budget' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='additionsInput'>Дополнительная информация</label>
                                 <br />
                                 <label class='labelDescription'>если в анкете нет чего-то важного для вас, расскажите об этом</label>
                                 <br />
-                                <textarea id='additionsInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='additionsInput' name='additions' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='contactsInput'>Контактная информация *</label>
                                 <br />
                                 <label class='labelDescription'>обязательно оставьте свой email и номер телефона, иначе мы не сможем связаться с вами</label>
                                 <br />
-                                <textarea id='contactsInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='contactsInput' name='contacts' onkeydown='textAreaHeight(this)'></textarea>
                                 <br /><br />
                                 <label for='personInput'>Контактное лицо *</label>
                                 <br />
                                 <label class='labelDescription'>напишите имя человека, с которым мы будем общаться</label>
                                 <br />
-                                <textarea id='personInput' name='about' onkeydown='textAreaHeight(this)'></textarea>
+                                <textarea id='personInput' name='person' onkeydown='textAreaHeight(this)'></textarea>
                                 <center>
                                 <br /><br />
                                 <label class='labelDescription'>Обратите внимание, что поля, помеченные символом &laquo;*&raquo; обязательны к заполнению.</label>
