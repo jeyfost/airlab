@@ -1,3 +1,11 @@
+$(window).load(function() {
+    if($('#upArrow')) {
+        if($('#upArrow').offset().top < $(window).height()) {
+            $('#upArrow').css('display', 'none');
+        }
+    }
+});
+
 function showDescription(action, block) {
     var b = document.getElementById(block).style;
 
