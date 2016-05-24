@@ -28,6 +28,12 @@ $(window).load(function() {
             $('#blogContent').css('opacity', '1');
         }, 300);
     }
+
+    if($('#upArrow')) {
+        if($('#upArrow').offset().top < $(window).height()) {
+            $('#upArrow').css('display', 'none');
+        }
+    }
 });
 
 $(window).resize(function () {
@@ -48,10 +54,4 @@ function up() {
         clearTimeout(t);
     }
     return false;
-}
-
-if($('#upArrow')) {
-    if($('#upArrow').offset().top < $(window).height()) {
-        $('#upArrow').css('display', 'none');
-    }
 }
