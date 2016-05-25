@@ -44,7 +44,7 @@
 <div id="lb4" class="menuBracket">[</div>
 <div id="rb4" class="menuBracket">]</div>
 
-<div id="contactsText"><b>Минск</b><br />ул. Лермонтова, 21<br /><br /><b>Могилёв</b><br />ул. Залуцкого, 21<br /><br />+375-29-747-87-67<br />+375-44-748-98-67<br /><br />welcome@airlab.by</div>
+<div id="contactsText"><b>Минск</b><br />220036<br />ул. Лермонтова, 21<br /><br /><b>Могилёв</b><br />212040<br />ул. Залуцкого, 21<br /><br />+375-29-747-87-67<br />+375-44-748-98-67<br /><br />welcome@airlab.by</div>
 
 </body>
 
