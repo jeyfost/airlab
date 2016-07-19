@@ -31,7 +31,7 @@ if($mysqli->query("INSERT INTO brief (name, about, advantage, competitors, compe
     $headers .= "\nContent-Type: multipart/mixed; boundary = \"PHP-mixed-".$hash."\"\n\n";
 
     $message = "--PHP-mixed-".$hash."\n";
-    $message .= "Content-Type: text/html; charset=\"windows-1251\"\n";
+    $message .= "Content-Type: text/html; charset=\"utf-8\"\n";
     $message .= "Content-Transfer-Encoding: 8bit\n\n";
     $message .= $text."\n";
     $message .= "--PHP-mixed-".$hash."\n";

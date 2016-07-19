@@ -28,7 +28,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-41.192307">
+            <state vertical-scroll-proportion="0.0">
               <caret line="63" column="44" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="44" />
               <folding />
             </state>
@@ -65,10 +65,10 @@
       <file leaf-file-name="ajaxSendBrief.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ajaxSendBrief.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6423562">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.38008416">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
-                <marker date="1466597259037" expanded="true" signature="878:1328" placeholder="INSERT INTO brief... " />
+                <marker date="1468919400520" expanded="true" signature="878:1328" placeholder="INSERT INTO brief... " />
               </folding>
             </state>
           </provider>
@@ -165,7 +165,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,6 +241,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +387,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464170007765</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Добавлено уведомление по email о поступлении нового брифа">
+      <created>1466597377081</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1466597377081</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -442,7 +448,8 @@
     <MESSAGE value="Исправлен блог" />
     <MESSAGE value="Исправлен блог, upd" />
     <MESSAGE value="Исправлена страница контактной информации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлена страница контактной информации" />
+    <MESSAGE value="Добавлено уведомление по email о поступлении нового брифа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено уведомление по email о поступлении нового брифа" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -745,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-41.192307">
+        <state vertical-scroll-proportion="0.0">
           <caret line="63" column="44" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="44" />
           <folding />
         </state>
@@ -769,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="104" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7377279">
           <caret line="46" column="113" selection-start-line="46" selection-start-column="113" selection-end-line="46" selection-end-column="113" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,10 +819,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ajaxSendBrief.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6423562">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.38008416">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <marker date="1466597259037" expanded="true" signature="878:1328" placeholder="INSERT INTO brief... " />
+            <marker date="1468919400520" expanded="true" signature="878:1328" placeholder="INSERT INTO brief... " />
           </folding>
         </state>
       </provider>
