@@ -21,7 +21,7 @@ include('../scripts/connect.php');
 
     <title>Панель администрирования | Студия дизайна AIRLAB</title>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="../js/admin.js"></script>
 
 </head>

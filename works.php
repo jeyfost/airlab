@@ -16,7 +16,7 @@ include ('scripts/connect.php');
 
     <title>Работы | Студия дизайна AIRLAB</title>
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/shadowbox/source/shadowbox.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
