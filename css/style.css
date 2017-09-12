@@ -27,6 +27,7 @@ textarea {width: calc(100% - 20px); height: 22px; padding: 10px; margin-top: 5px
 #backLinkText:hover {color: #049eff; border-bottom: 1px dashed #049eff;}
 #cancelBrief:hover {color: #049eff; border-bottom: 1px dotted #049eff;}
 #enterSubmit:hover {color: #049eff; border-bottom: 2px dotted #049eff;}
+#workContent div span a:hover {text-decoration: none; color: #049eff;}
 
 #logo {position: absolute; top: -40px; right: 100%; z-index: 999999; transition: 1s;}
 #menu {position: absolute; top: 40px;  left: 100%;  transition: 1s; z-index: 999;}
@@ -58,6 +59,7 @@ textarea {width: calc(100% - 20px); height: 22px; padding: 10px; margin-top: 5px
 #workBigPhoto {max-width: 100%; height: auto; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
 #workContent {position: relative; margin: 0 auto; width: 90%;}
 #workContent img {box-shadow: 0 0 20px rgba(0, 0, 0, .5); max-width: 70%; margin-top: 70px; -webkit-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none;}
+#workContent div span a {text-decoration: underline; font-style: italic; transition: .3s;}
 #brief {width: 100%; text-align: center;}
 #briefForm {width: 600px; text-align: left; position: relative; margin: 40px auto; opacity: 0; display: none; transition: 1s;}
 #cancelBrief {transition: 1s; border-bottom: 1px dotted #000; cursor: pointer; opacity: 0;}
