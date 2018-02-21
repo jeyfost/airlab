@@ -12,12 +12,12 @@ include ('scripts/connect.php');
     <meta name="description" content="Студия дизайна AIRLAB. Создание и сопровождение сайтов. Разработка фирменного стиля, брендирование, рекламные компании.">
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="js/shadowbox/source/shadowbox.css" />
+    <link rel="stylesheet" type="text/css" href="js/lightview/css/lightview/lightview.css" />
 
     <title>Работы | Студия дизайна AIRLAB</title>
 
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/shadowbox/source/shadowbox.js"></script>
+    <script type="text/javascript" src="js/lightview/js/lightview/lightview.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/logo.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
@@ -213,7 +213,7 @@ include ('scripts/connect.php');
                                 <br /><br />
                                 <label class='labelDescription'>Обратите внимание, что поля, помеченные символом &laquo;*&raquo; обязательны к заполнению.</label>
                                 <br /><br />
-                                <label>И, напоследок, не забывайте <a href='img/system/work.jpg' rel='lightbox'><span id='backLinkText'>об этой прописной истине</span></a> ;)</label>
+                                <label>И, напоследок, не забывайте <a href='img/system/work.jpg' class='lightview' data-lightview-options='skin: \"light\"'><span id='backLinkText'>об этой прописной истине</span></a> ;)</label>
                                 <br /><br />
                                 <span id='briefError'></span>
                                 <br />
